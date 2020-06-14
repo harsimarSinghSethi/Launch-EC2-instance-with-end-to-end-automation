@@ -124,7 +124,7 @@ resource "null_resource" "mounting" {
       "sudo mkfs.ext4 /dev/xvdd",
       "sudo mount /dev/xvdh /var/www/html",
       "sudo rm -rf /var/www/html/*",
-      "sudo git clone https://github.com/whytedork/tera-ec2-auto.git  /var/www/html"
+      "sudo git clone https://github.com/harsimarSinghSethi/Launch-EC2-instance-with-end-to-end-automation.git  /var/www/html"
     ]
   }
 }
